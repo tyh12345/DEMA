@@ -141,7 +141,7 @@ mask_generator_2 = SamAutomaticMaskGenerator(
     stability_score_thresh=***,
     crop_n_layers=***,
     crop_n_points_downscale_factor=***,
-    min_mask_region_area=***,  # Requires open-cv to run post-processing
+    min_mask_region_area=***,
 )
 
 masks2 = mask_generator_2.generate(image)
